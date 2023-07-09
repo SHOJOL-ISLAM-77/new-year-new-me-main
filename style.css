@@ -4,9 +4,11 @@
     font-family: 'Work Sans', sans-serif;
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
 }
 .container{
-    width: 1600px;
+    max-width: 1600px;
     margin: auto;
 }
 h1{
@@ -16,7 +18,10 @@ h2{
     font-size: 40px;
 }
 h3{
-    font-size: 35px;
+    font-size: 30px;
+}
+h4{
+    font-size: 25px;
 }
 .text-gray{
     color: gray;
@@ -43,4 +48,41 @@ header p{
 }
 header button{
     background-color: #F15B22;
+}
+/* .My-failures section :start here  */
+
+.My-failures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.My-failures_discription{
+    padding: 100px 200px 0 100px;
+}
+.My-failures_discription p{
+    padding: 50px 0;
+}
+.My-failures img{
+    padding-left: 300px;
+}
+.My-failures{
+    margin: 200px 0;
+}
+.My-failures_discription ul li::before{
+    content: "\2714\0020";
+    color: #16D887;
+}
+/* my plans section here  */
+.my-plan{
+    text-align: center;
+}
+.my-plan h2{
+    padding: 100px 0;
+}
+.my-plan h3{
+    padding: 30px 0;
+}
+.plans{
+    display: flex;
+    justify-content: space-around;
 }
