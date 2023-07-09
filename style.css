@@ -84,5 +84,21 @@ header button{
 }
 .plans{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+/* .call-now section :start here  */
+.call-now div{
+    margin: 150px 0;
+    background-image:url('./images/gradient3.png') , url('./images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    border-radius: 30px;
+}
+.call-now h2{
+    padding: 50px;
+}
+.call-now button{
+    margin-bottom: 50px;
+    margin-left: 50px;
+    padding: 30px 50px;
 }
