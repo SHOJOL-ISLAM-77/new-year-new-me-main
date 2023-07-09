@@ -1,0 +1,46 @@
+/* common code  */
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1600px;
+    margin: auto;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 35px;
+}
+.text-gray{
+    color: gray;
+}
+.primary-btn{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+/* header style :start here */
+header{
+    background-image:url('./images/banner/banner1.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+header div{
+    text-align: end;
+    padding: 250px 200px;
+}
+header p{
+    padding: 50px 0;
+}
+header button{
+    background-color: #F15B22;
+}
