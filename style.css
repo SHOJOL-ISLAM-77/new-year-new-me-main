@@ -102,3 +102,62 @@ header button{
     margin-left: 50px;
     padding: 30px 50px;
 }
+
+/* footer section start here  */
+
+
+footer{
+    display: flex;
+    padding: 130px 230px;
+    background-color: #151414;
+    color: #fff;
+    gap: 330px;
+}
+.footer_description h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer_description p{
+    padding: 16px 0;
+    width: 485px;
+}
+
+.footer_description small{
+    display: block;
+    padding: 16px 0;
+}
+.footer_description small a{
+    color: white;
+}
+footer .links{
+    padding: 16px 0;
+}
+.links .middle{
+    padding: 0 20px;
+}
+
+
+footer h3{
+    font-size: 25px;
+    padding: 16px 0;
+}
+
+footer #email{
+    padding: 21px;
+    margin: 16px 0;
+    background-color: black;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    display: block;
+    width: 325px;
+}
+.footer-btn{
+    color: #F15B22;
+    padding: 20px 35px;
+}
+#email::placeholder {
+    color: #d4d1cd;
+    font-size: 1.2em;
+}  
